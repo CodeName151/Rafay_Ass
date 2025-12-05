@@ -35,7 +35,6 @@ public abstract class Person {
     public String getEmail() {
         return eMail;
     }
-
     // Setters
     public void setName(String name) {
         this.name = name;
