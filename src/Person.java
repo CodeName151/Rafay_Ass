@@ -8,7 +8,7 @@ public abstract class Person {
     }
     @Override
     public String toString(){
-        return ("Id = "+id+"\nName = "+name+"\nE-Mail ="+eMail);
+        return ("\nId = "+id+"\nName = "+name+"\nE-Mail ="+eMail);
     }
     @Override
     public boolean equals(Object o) {
